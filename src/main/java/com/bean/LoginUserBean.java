@@ -4,16 +4,16 @@ import org.hibernate.validator.constraints.NotBlank;
 
 public class LoginUserBean {
     @NotBlank
-	String firstNeam;
+	String firstName;
     @NotBlank
 	String password;
     @NotBlank
 	String email;
 	public String getFirstNeam() {
-		return firstNeam;
+		return firstName;
 	}
 	public void setFirstNeam(String firstNeam) {
-		this.firstNeam = firstNeam;
+		this.firstName = firstNeam;
 	}
 	public String getPassword() {
 		return password;

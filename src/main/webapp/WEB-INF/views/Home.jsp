@@ -7,6 +7,6 @@
 <title>IHome page</title>
 </head>
 <body>
-
+<jsp:include page="Header.jsp"></jsp:include>
 </body>
 </html>
